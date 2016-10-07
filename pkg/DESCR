@@ -1,0 +1,1 @@
+SSH provides a simple streaming ssh command runner. That's it. This is a one trick pony. ssh = SSH.new "example.com", "/var/log" puts ssh.run "ls" SSH was extracted from rake-remote_task which was extracted from vlad.
